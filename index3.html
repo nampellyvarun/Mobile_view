@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <div id="myButton" class="card">
+        <div class="top-menu" >
+            <ul class="list">
+                <li id="demo3"></li>
+                <li id="demo9"></li>
+                <li id="demo2"></li>
+                <li id="demo1"></li>
+            </ul>
+            <div class="battery">
+                <div>
+                    <span id="demo8"></span>
+                </div>
+                <div id="batteryBody">
+                    <div id="indicator"></div>
+                </div>
+            </div>
+        </div>  
+        <div id="name">Stopwatch
+        </div>
+        <div>
+            <span id="display-area">00:00:00.000</span>
+       	</div>
+       	<div>
+       		<span id="buttons">
+	           	<button class="start"onClick="start()">Start</button>
+	           	<button class="stop"onClick="stop()">Stop</button>
+	           	<button class="reset" onClick="reset()">Reset</button>
+            </span>
+    	</div>
+    </div>
+    <script src="main3.js"></script>
+</body>
+
+</html>
