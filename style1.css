@@ -21,6 +21,14 @@ li{
     height:50px;
     width:50px;
     border-radius: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#demo11{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 20px;
+	font-size: 12px;
+	margin-top:0px;
 }
 
 img{
