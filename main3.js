@@ -50,10 +50,6 @@ function myFunction() {
   document.getElementById("demo2").innerHTML =n;
   document.getElementById("demo3").innerHTML = d.getDate();
   document.getElementById("demo1").innerHTML = d.getFullYear();
-
-
-
-
 }
 
 

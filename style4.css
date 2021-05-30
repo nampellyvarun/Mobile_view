@@ -103,50 +103,61 @@ li{
     background-color: #FFFF00;
 }
 
-
-button {
-    width: 80px;
-    height: 30px;
-    border: 3px solid white;
-    border-radius: 50px;
-    color: white;
-    cursor: pointer;
-    outline: none;
-    align-items: center;
+.msgNoTask{
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    margin: 0px;
+    background-color: rgba(193,187,221,0.5);
 }
 
-#display-area{
-    font-size: 40px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -55%);
-    margin-top: 150px;
-}
-#buttons {
-    position: absolute;
-    margin-top:200px;
-    margin-left:20px;
-}
-#buttons li {
-    display: inline;
-    padding-left: 10px;
+#addtask{
+    list-style-type:none;
 }
 
-#name{
-	font-size: 40px;
-	text-align: center;
-	font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 500;
+.color{
+    color: black;
+}
+.add-del{
+    background-color: rgba(193,231,227,0.5)
+
 }
 
-.start{
-	background-color:#AFB03F; 
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-.stop{
-	background-color:#B61C1C;
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-.reset{
-	background-color: #45347A;
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration:none;
+}
+
+.new{
+    margin-left: -30px;
+}
+.del{
+    margin-left: 200px;
+}
+
+th,td{
+    font-size:11px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(246,246,235,0.3);
 }

@@ -20,29 +20,15 @@ li{
 #demo10{
     height:50px;
     width:50px;
-    border-radius: 100px;
-    margin-left: 20px;
-    margin-top: 20px;
 }
-#demo11,#demo13{
+#demo11{
 	font-family: 'Roboto Condensed', sans-serif;
-	margin-left: 18px;
-	font-size: 12px;
-	margin-top:0px;
+    font-size: 12px;
 }
-
-#demo12{
-	font-family: 'Roboto Condensed', sans-serif;
-	margin-left: 20px;
-	font-size: 12px;
-	margin-top:0px;
-	border-radius:100px;
-}
-
 img{
     height:50px;
     width:50px;
-    border-radius: 0px;
+    border-radius: 20px;
 }
 
 #demo3,#demo2,#demo1{
